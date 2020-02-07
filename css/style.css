@@ -1,0 +1,247 @@
+html {
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 290px;
+    height: 100vh;
+    display: inline-block;
+    background-image: url(https://demo.mikado-themes.com/onyx50/wp-content/uploads/2015/03/left-menu-background.jpg);
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
+
+.navbar::-webkit-scrollbar {
+    display: none;
+}
+
+.logo-container {
+    display: inline-block;
+    margin: 65px 0 45px 45px;
+}
+
+.logo>img {
+    height: 82px;
+}
+
+.menu-items ul {
+    
+    list-style: none;
+}
+
+.menu-items>ul>li {
+    line-height: 50px;
+    position: relative;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.menu-items a:hover {
+    color: #d34e35;
+}
+
+.menu-items li>a>i {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.menu-items .plus {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+}
+
+.menu-items li>ul {
+    margin-left: 0;
+    padding-inline-start: 0px;
+}
+
+.menu-items li>ul>li {
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 0;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.social-icons li {
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons a:hover {
+    color: grey;
+}
+
+.content {
+    margin-left: 290px;
+    position: relative;
+}
+
+.product-container {
+    height: 574px;
+    width: 443px;
+    border: 1px solid rgb(209, 209, 209);
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+
+
+.product {
+    height: 444px;
+    width: 443px;
+
+    position: relative;
+}
+.product>a{
+    position: relative;
+}
+.product a>img {
+    height: 404px;
+    width: 443px;
+    position: relative;
+}
+ .porduct-img{
+    display: inline-block;
+    height: 404px;
+    width: 443px;
+    position: relative;
+}
+.zoom a{
+    color:#d34e35 ;
+}
+.zoom{
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 45%;
+    opacity: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.zoom:hover{
+    opacity: .5;
+}
+.zoom:hover i{
+    opacity: 1;
+}
+
+.product-cost {
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    margin: 20px;
+}
+
+.product-cost a {
+    text-decoration: none;
+}
+
+.product-name {
+    display: inline-block;
+}
+
+.product-cost a>span {
+    display: block;
+    padding: 10px;
+}
+
+.cost {
+    font-weight: 800;
+    color: #d34e35;
+}
+.product-name:hover{
+    color: #d34e35;
+}
+.btn-area {
+    float: right;
+    margin-top: 25px;
+    tra
+}
+
+.card-btn a {
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #898989;
+    background-color: rgb(241, 241, 241);
+    transition: 1s;
+
+}
+.card-btn>a:hover{
+    background-color: #d34e35;
+    color: white;
+}
+/* .product::before {
+    display: none;
+    content: url("../img/plus.png");
+   transform: scale(.1);
+   right: 100px;
+   bottom: 100px;
+    height: 404px;
+    width: 443px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.796);
+  background-color: hotpink;
+}
+.product:hover::before{
+display: block;
+} */
+/*.porduct-img:hover{
+    opacity: 0.4;
+
+}
+.zoom{
+    height: 460px;
+    width: 443px;
+  background-color: rgba(167, 167, 167, 0.626);
+
+}
+
+.product::before {
+    display: none;
+    content: url("../img/plus.png");
+   transform: scale(.05);
+   right: 100px;
+   bottom: 100px;
+    height: 404px;
+    width: 443px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.796);
+  background-color: hotpink;
+}
+.product:hover::before{
+display: block;
+}
+
+
+
+ */
